@@ -1,0 +1,121 @@
+.container{
+width: 100%;
+height: 100%;
+background-color: #82CDFF;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.scoreboard{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+
+.winner{
+    height: 74px;
+    background-color:#0099FF ;
+    min-width: 430px;
+    width: fit-content;
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px 14px 0 0;
+    padding: 0 15px;
+    font-size: 35px;
+
+
+}
+.points{
+   height: 149px;
+   min-width: 949px; 
+   background-color: #0099FF;
+   border-radius: 17px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.player-name{
+    font-size: 38px;
+    color:#ffffff;
+}
+.player-point{
+    height: 120px;
+    width: 131px;
+    background-color:#DBF1FF;
+    border-radius: 17px;
+    font-size: 85px;
+    color:#0099ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    padding: 16px;
+}
+.separator{
+    color: #ffffff;
+    font-size: 58px;
+    font-weight: 900;
+}
+.battle-field{
+    display:flex;
+    height: 414px;
+    width: 86%;
+
+}
+.button-move{
+    height: 80px;
+    width: 220px;
+    background-color: #0099ff;
+    color: #ffffff;
+    font-size: 44px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    transition-duration: 300ms;
+}
+.button-move:hover{
+color: #0099FF;
+background-color: transparent;
+border: 1px solid #0099FF;
+box-shadow: 3px 3px 7px #000000;
+}
+.buttom-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.battle-field-container{
+ width: 100%;
+ background-color: #0099ff;
+ margin: 0 19px;
+ border-radius: 17px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 35px;
+
+}
+.field{
+    height: 100%;
+    width: 35%;
+    background-color: #d8f1ff;
+    border-radius: 17px;
+}
+.separator-field{
+    font-size: 104px;
+    color: #ffffff;
+    font-weight: 900; 
+}
+.button-start{
+    margin-right: 40;
+}
+.reset-box{
+    margin-top: 22px;
+}
